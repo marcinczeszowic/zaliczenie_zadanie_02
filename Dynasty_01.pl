@@ -24,43 +24,43 @@ ksiazeta_mazowieccy.
 /*  parent ( child, parent).  */
 
 parent(leszek_bialy,kazimierz_II_sprawiedliwy).
-parent(leszek_bialy,wifi1).
+parent(leszek_bialy,zona1).
 parent(konrad_I_mazowiecki,kazimierz_II_sprawiedliwy).
-parent(konrad_I_mazowiecki,wifi1).
+parent(konrad_I_mazowiecki,zona1).
 parent(boleslaw,konrad_I_mazowiecki).
-parent(boleslaw,wifi2).
+parent(boleslaw,zona2).
 parent(kazimierz_I,konrad_I_mazowiecki).
-parent(kazimierz_I,wifi2).
+parent(kazimierz_I,zona2).
 parent(siemowit,konrad_I_mazowiecki).
-parent(siemowit,wifi2).
+parent(siemowit,zona2).
 parent(boleslaw_V_wstydliwy,konrad_I_mazowiecki).
-parent(boleslaw_V_wstydliwy,wifi2).
+parent(boleslaw_V_wstydliwy,zona2).
 parent(leszek_czarny,kazimierz_I).
-parent(leszek_czarny,wifi3).
+parent(leszek_czarny,zona3).
 parent(siemomysl,kazimierz_I).
-parent(siemomysl,wifi3).
+parent(siemomysl,zona3).
 parent(wladyslaw_I_lokietek,kazimierz_I).
-parent(wladyslaw_I_lokietek,wifi4).
+parent(wladyslaw_I_lokietek,zona4).
 parent(kazimierz_II,kazimierz_I).
-parent(kazimierz_II,wifi5).
+parent(kazimierz_II,zona5).
 parent(siemowit,kazimierz_I).
-parent(siemowit,wifi5).
+parent(siemowit,zona5).
 parent(leszek,siemomysl).
-parent(leszek,wifi6).
+parent(leszek,zona6).
 parent(przemysl,siemomysl).
-parent(przemysl,wifi6).
+parent(przemysl,zona6).
 parent(kazimierz_III,siemomysl).
-parent(kazimierz_III,wifi7).
+parent(kazimierz_III,zona7).
 parent(kazimierz_III_wielki,wladyslaw_I_lokietek).
-parent(kazimierz_III_wielki,wifi8).
+parent(kazimierz_III_wielki,zona8).
 parent(wladyslaw_garbaty,siemowit_2).
-parent(wladyslaw_garbaty,wifi9).
+parent(wladyslaw_garbaty,zona9).
 parent(boleslaw2,siemowit_2).
-parent(boleslaw2,wifi10).
+parent(boleslaw2,zona10).
 parent(wladyslaw_bialy,kazimierz_III).
-parent(wladyslaw_bialy,wifi11).
+parent(wladyslaw_bialy,zona11).
 parent(ksiazeta_mazowieccy,siemowit).
-parent(ksiazeta_mazowieccy,wifi12).
+parent(ksiazeta_mazowieccy,zona12).
 
 male(kazimierz_II_sprawiedliwy).
 male(leszek_bialy).
@@ -83,18 +83,18 @@ male(wladyslaw_bialy).
 male(ksiazeta_mazowieccy).
 male(boleslaw_V_wstydliwy).
 
-female(wifi1).
-female(wifi2).
-female(wifi3).
-female(wifi4).
-female(wifi5).
-female(wifi6).
-female(wifi7).
-female(wifi8).
-female(wifi9).
-female(wifi10).
-female(wifi11).
-female(wifi12).
+female(zona1).
+female(zona2).
+female(zona3).
+female(zona4).
+female(zona5).
+female(zona6).
+female(zona7).
+female(zona8).
+female(zona9).
+female(zona10).
+female(zona11).
+female(zona12).
 
 father(X, Y) :- male(Y), parent(X, Y).
 mother(X, Y) :- female(Y), parent(X, Y).
