@@ -154,7 +154,3 @@ start:- write('On the picture we will see Dynasty of Piastowie kujawscy'),nl,
     great_great_great_grand_child;    
 	write('also we can show who is who ancestor:'),nl,
     ancestor_family.
-
-
-    
-
