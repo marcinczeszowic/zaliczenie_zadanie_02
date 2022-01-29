@@ -25,16 +25,12 @@ ksiazeta_mazowieccy.
 
 parent(leszek_bialy,kazimierz_II_sprawiedliwy).
 parent(leszek_bialy,wifi1).
-
 parent(konrad_I_mazowiecki,kazimierz_II_sprawiedliwy).
 parent(konrad_I_mazowiecki,wifi1).
-
 parent(boleslaw,konrad_I_mazowiecki).
 parent(boleslaw,wifi2).
-
 parent(kazimierz_I,konrad_I_mazowiecki).
 parent(kazimierz_I,wifi2).
-
 parent(siemowit,konrad_I_mazowiecki).
 parent(siemowit,wifi2).
 parent(boleslaw_V_wstydliwy,konrad_I_mazowiecki).
