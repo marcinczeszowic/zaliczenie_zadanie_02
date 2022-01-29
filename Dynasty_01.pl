@@ -126,7 +126,7 @@ son_5:- father(X,wladyslaw_I_lokietek),format(' ~w\n',[X]),fail.
 son_6:- father(X,siemowit_2),format(' ~w\n',[X]),fail.
 son_7:- father(X,kazimierz_III),format(' ~w\n',[X]),fail.
 
-s1:- write('On the picture we will see Dynasty of Piastowie kujawscy'),nl,
+start:- write('On the picture we will see Dynasty of Piastowie kujawscy'),nl,
 	write('At the head of a dynasty is:'),nl,
     write('kazimierz_II_sprawiedliwy'),nl,
 	write('The next members of the family are two brothers:'),nl,
